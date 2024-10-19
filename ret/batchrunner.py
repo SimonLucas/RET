@@ -15,7 +15,7 @@ from tqdm import tqdm
 import os
 
 from mesa_local.mesa.batchrunner import FixedBatchRunner, ParameterProduct
-from mesa.datacollection import DataCollector
+from mesa_local.mesa.datacollection import DataCollector
 from ret.sampling import LatinHypercubeParameterSampler
 from ret.utilities.save_utilities import validate_save_path, add_datetime_stamp, add_iteration_stamp
 

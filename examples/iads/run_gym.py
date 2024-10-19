@@ -8,6 +8,7 @@ env = RetEnv(IADS)
 
 obs = env.reset()
 
+
 for _ in range(100):
     action = env.action_space.sample()
     obs, rewards, done, info = env.step(action)

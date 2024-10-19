@@ -111,3 +111,6 @@ output/*
 /*.csv
 /saved_data
 /.vscode
+*.svg
+*.png
+*.json
